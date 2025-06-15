@@ -19,7 +19,7 @@ export default function About() {
                 innovative solutions and make a positive impact through technology.
             </p>
             <p className="text-gray-600 mb-6 leading-relaxed">
-              When I'm not coding, you'll find me exploring new technologies, contributing to open-source 
+              When I am not coding, you will find me exploring new technologies, contributing to open-source 
               projects, or sharing knowledge with the developer community.
             </p>
             <div className="flex flex-wrap gap-4">
