@@ -3,7 +3,7 @@ export default function Skills() {
   const skillCategories = [
     {
       title: "Languages",
-      skills: ["C", "C++", "JavaScript", "Python", "Java"]
+      skills: ["C", "C++", "Python", "Java"]
     },
     // {
     //   title: "Backend",
@@ -26,7 +26,7 @@ export default function Skills() {
           <h2 className="text-4xl font-bold text-gray-800 mb-4">Skills & Technologies</h2>
           <div className="w-24 h-1 bg-primary mx-auto mb-4"></div>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            I'm passionate about learning new technologies and staying up-to-date with the latest trends in development.
+            I am passionate about learning new technologies and staying up-to-date with the latest trends in development.
           </p>
         </div>
 
