@@ -13,9 +13,10 @@ export default function About() {
               Passionate Developer & Tech Enthusiast
             </h3>
             <p className="text-gray-600 mb-6 leading-relaxed">
-              I'm a dedicated full-stack developer with a passion for creating innovative solutions. 
-              With expertise in modern web technologies and machine learning, I love turning complex 
-              problems into elegant, user-friendly applications.
+                I am currently pursuing an MSc in Computer Science with a growing interest in Data Science, Machine
+                Learning, and Software Development. I am eager to learn new skills and gain practical experience through
+                hands-on projects, with the goal of enhancing my technical abilities. My objective is to contribute to
+                innovative solutions and make a positive impact through technology.
             </p>
             <p className="text-gray-600 mb-6 leading-relaxed">
               When I'm not coding, you'll find me exploring new technologies, contributing to open-source 
