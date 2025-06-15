@@ -9,7 +9,7 @@ export default function Hero() {
             className="w-32 h-32 md:w-48 md:h-48 rounded-full mx-auto mb-8 shadow-2xl animate-bounce-slow"
           />
           <h1 className="text-4xl md:text-6xl font-bold text-gray-800 mb-4">
-            Hi, I'm <span className="text-primary">Raihan</span>
+            Hi, I am <span className="text-primary">Raihan</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 mb-8">
             ML | DL | LLMs | Curious Mind in the AI Space
