@@ -14,11 +14,12 @@ body {
 
 /* Custom scrollbar */
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 6px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  /* background: #f1f1f1; */
+  background: #ea14b5;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -27,7 +28,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #1E40AF;
+  background: #e7e8ee;
 }
 
 /* Gradient backgrounds */

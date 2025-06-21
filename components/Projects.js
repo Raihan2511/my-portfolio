@@ -2,31 +2,31 @@ export default function Projects() {
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Platform",
-      description: "Full-stack e-commerce solution with React, Node.js, and MongoDB. Features include user authentication, payment integration, and admin dashboard.",
+      title: "MedXpert: A Multimodal Diagnosis Assistant for Radiology",
+      description: "Developed MedXpert, a multimodal AI assistant combining fine-tuned CLIP, BLIP, and Gemini LLM for medical image-text retrieval, captioning, and automated radiology diagnosis.",
       image: "/images/project1.jpg",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-      github: "https://github.com/yourusername/ecommerce",
-      live: "https://your-ecommerce.vercel.app"
+      technologies: ["PyTorch", "Hugging Face Transformers", "CLIP", "BLIP", "Gemini LLM", "Streamlit", "NumPy", "Pandas"],
+      github: "https://github.com/Raihan2511/MedXpert",
+      live: "https://medxpert-d4kyfrpxejymtc4hj95da9.streamlit.app/"
     },
     {
       id: 2,
-      title: "AI Chat Application",
-      description: "Real-time chat application with AI-powered responses using OpenAI API. Built with Next.js and Socket.io for seamless communication.",
+      title: "ChatGPT Clone with DeepSeek R1 & RAG-Powered PDF Q&A",
+      description: " Developed ChatGPT-like AI Assistant using DeepSeek R1 with RAGfor document-based Q&A functionality and Enabled PDF uploads with FAISS vector search and implemented persistent chat memory using PostgreSQL",
       image: "/images/project2.jpg",
-      technologies: ["Next.js", "OpenAI", "Socket.io", "Tailwind"],
-      github: "https://github.com/yourusername/ai-chat",
-      live: "https://your-ai-chat.vercel.app"
+      technologies: ["Streamlit", "DeepSeek R1", "FAISS", "PostgreSQL","langchain","senetence-transformers"],
+      github: "https://github.com/Raihan2511/ChatRAG",
+      live: "https://chatrag-9hi5etpa4vsfmtdcrpc64i.streamlit.app/"
     },
-    {
-      id: 3,
-      title: "Weather Dashboard",
-      description: "Beautiful weather dashboard with location-based forecasts, interactive maps, and detailed weather analytics using modern APIs.",
-      image: "/images/project3.jpg",
-      technologies: ["React", "Weather API", "Chart.js", "Leaflet"],
-      github: "https://github.com/yourusername/weather-app",
-      live: "https://your-weather-app.vercel.app"
-    }
+    // {
+    //   id: 3,
+    //   title: "Weather Dashboard",
+    //   description: "Beautiful weather dashboard with location-based forecasts, interactive maps, and detailed weather analytics using modern APIs.",
+    //   image: "/images/project3.jpg",
+    //   technologies: ["React", "Weather API", "Chart.js", "Leaflet"],
+    //   github: "https://github.com/yourusername/weather-app",
+    //   live: "https://your-weather-app.vercel.app"
+    // }
   ];
 
   return (
