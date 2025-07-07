@@ -3,7 +3,7 @@ export default function Projects() {
     {
       id: 1,
       title: "MedXpert: A Multimodal Diagnosis Assistant for Radiology",
-      description: "Developed MedXpert, a multimodal AI assistant combining fine-tuned CLIP, BLIP, and Gemini LLM for medical image-text retrieval, captioning, and automated radiology diagnosis.",
+      description: "Developed MedXpert, a multimodal AI assistant combining fine-tuned CLIP, BLIP, for medical image-text retrieval, and automated radiology diagnosis.",
       image: "/images/project1.jpg",
       technologies: ["PyTorch", "Hugging Face Transformers", "CLIP", "BLIP", "Gemini LLM", "Streamlit", "NumPy", "Pandas"],
       github: "https://github.com/Raihan2511/MedXpert",
@@ -18,15 +18,33 @@ export default function Projects() {
       github: "https://github.com/Raihan2511/ChatRAG",
       live: "https://chatrag-9hi5etpa4vsfmtdcrpc64i.streamlit.app/"
     },
-    // {
-    //   id: 3,
-    //   title: "Weather Dashboard",
-    //   description: "Beautiful weather dashboard with location-based forecasts, interactive maps, and detailed weather analytics using modern APIs.",
-    //   image: "/images/project3.jpg",
-    //   technologies: ["React", "Weather API", "Chart.js", "Leaflet"],
-    //   github: "https://github.com/yourusername/weather-app",
-    //   live: "https://your-weather-app.vercel.app"
-    // }
+    {
+      id: 3,
+      title: "ShopLens: AI Powered Shopping Assistant app",
+      description: "Fine tuned yolos model for clothings detection, Fashion-clip model for clothing recognition, Chatbot like streamlit interface with image upload feature.",
+      image: "/images/project3.jpg",
+      technologies: ["Streamlit", "PyTorch","YOLOS", "Fashion-CLIP","opencv","gemini-llm"],
+      github: "https://github.com/Raihan2511/ShopLens-AI-Shopping-Assistant/tree/feature/test01",
+      live: "https://your-weather-app.vercel.app"
+    },
+    {
+      id: 4,
+      title: "Classification-Based Approach for Predicting SmartphonePrice Categories",
+      description:"Built machine learning models to classify smartphones into price segments using machine learning techniques. The project involved data preprocessing, feature engineering, and model evaluation to achieve high accuracy in predicting smartphone price categories.",
+      image: "/images/project3.jpg",
+      technologies: ["scikit-learn", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
+      github: "https://github.com/SayanDasDev/smartphone_price_prediction/tree/main",
+      live: "https://your-weather-app.vercel.app"
+    },
+    {
+      id: 5,
+      title: "Wavelet-Based Approach for Authenticating Medical Images & Extracting Patient Info",
+      description:"Developed a robust digital watermarking system for medical image authentication and secure patient data embedding. The solution leveraged Discrete Wavelet Transform (DWT), Histogram Shifting, and Arnold’s Cat Map for resilient watermark encoding and extraction.",
+      image: "/images/project3.jpg",
+      technologies: ["opencv", "NumPy"],
+      github: "https://github.com/Raihan2511/steganography",
+      // live: "https://your-weather-app.vercel.app"
+    }
   ];
 
   return (
@@ -73,7 +91,7 @@ export default function Projects() {
               
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-gray-800 mb-2">{project.title}</h3>
-                <p className="text-gray-600 mb-4 line-clamp-3">{project.description}</p>
+                <p className="text-gray-600 mb-4 line-clamp-6">{project.description}</p>
                 
                 <div className="flex flex-wrap gap-2">
                   {project.technologies.map((tech, index) => (
