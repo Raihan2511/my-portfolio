@@ -13,7 +13,7 @@ export default function Projects() {
       id: 2,
       title: "ChatGPT Clone with DeepSeek R1 & RAG-Powered PDF Q&A",
       description: " Developed ChatGPT-like AI Assistant using DeepSeek R1 with RAGfor document-based Q&A functionality and Enabled PDF uploads with FAISS vector search and implemented persistent chat memory using PostgreSQL",
-      image: "/images/project2.jpg",
+      image: "/images/chatgpt.png",
       technologies: ["Streamlit", "DeepSeek R1", "FAISS", "PostgreSQL","langchain","senetence-transformers"],
       github: "https://github.com/Raihan2511/ChatRAG",
       live: "https://chatrag-9hi5etpa4vsfmtdcrpc64i.streamlit.app/"
@@ -40,7 +40,7 @@ export default function Projects() {
       id: 5,
       title: "Wavelet-Based Approach for Authenticating Medical Images & Extracting Patient Info",
       description:"Developed a robust digital watermarking system for medical image authentication and secure patient data embedding. The solution leveraged Discrete Wavelet Transform (DWT), Histogram Shifting, and Arnold’s Cat Map for resilient watermark encoding and extraction.",
-      image: "/images/project3.jpg",
+      image: "/images/watermarking.png",
       technologies: ["opencv", "NumPy"],
       github: "https://github.com/Raihan2511/steganography",
       // live: "https://your-weather-app.vercel.app"
