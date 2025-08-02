@@ -1,21 +1,29 @@
-// components/Skills.js
 export default function Skills() {
   const skillCategories = [
     {
       title: "Languages",
-      skills: ["C", "C++", "Python", "Java"]
+      skills: [
+        { name: "C", icon: "/icons/c.svg" },
+        { name: "C++", icon: "/icons/cpp.svg" },
+        { name: "Python", icon: "/icons/python.svg" },
+        { name: "Java", icon: "/icons/java.svg" }
+      ]
     },
-    // {
-    //   title: "Backend",
-    //   skills: ["Node.js", "Python", "Express.js", "FastAPI", "Django", "GraphQL", "REST APIs"]
-    // },
     {
       title: "Database",
-      skills: ["MySQL","PostgreSQL", "Oracle"]
+      skills: [
+        { name: "MySQL", icon: "/icons/mysql.svg" },
+        { name: "PostgreSQL", icon: "/icons/postgresql.svg" },
+        { name: "Oracle", icon: "/icons/oracle.svg" }
+      ]
     },
     {
       title: "Tools & Others",
-      skills: ["Git", "Vercel", "Linux"]
+      skills: [
+        { name: "Git", icon: "/icons/git.svg" },
+        { name: "Vercel", icon: "/icons/vercel.svg" },
+        { name: "Linux", icon: "/icons/linux.svg" }
+      ]
     }
   ];
 
@@ -38,11 +46,14 @@ export default function Skills() {
               </h3>
               <div className="space-y-2">
                 {category.skills.map((skill, skillIndex) => (
-                  <div 
+                  <div
                     key={skillIndex}
                     className="bg-white p-3 rounded-lg text-center hover:bg-primary hover:text-white transition-colors cursor-default"
                   >
-                    {skill}
+                    <div className="flex items-center justify-center gap-2">
+                      <img src={skill.icon} alt={skill.name} className="w-5 h-5" />
+                      <span>{skill.name}</span>
+                    </div>
                   </div>
                 ))}
               </div>

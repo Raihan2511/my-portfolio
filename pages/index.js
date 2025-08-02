@@ -117,6 +117,7 @@
 
 
 // pages/index.js
+// pages/index.js
 import Header from '../components/Header'
 import Hero from '../components/Hero'
 import About from '../components/About'
@@ -124,11 +125,17 @@ import Projects from '../components/Projects'
 import Skills from '../components/Skills'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
+import ThemeToggle from '../components/ThemeToggle' // ← Add this
 
 export default function Home() {
   return (
-    <>
+    <div className="bg-white text-black dark:bg-gray-900 dark:text-white transition-colors duration-300">
+      {/* Add toggle in the header area */}
       <Header />
+      <div className="flex justify-end px-4 py-2">
+        <ThemeToggle />
+      </div>
+
       <main>
         <Hero />
         <About />
@@ -136,7 +143,8 @@ export default function Home() {
         <Skills />
         <Contact />
       </main>
+
       <Footer />
-    </>
+    </div>
   )
 }
