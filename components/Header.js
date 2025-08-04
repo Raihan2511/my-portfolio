@@ -60,12 +60,12 @@ export default function Header() {
         <div className="flex justify-between items-center">
           {/* Logo/Title */}
           <div className="text-2xl font-bold text-primary dark:text-white">
-            Portfolio
+            Raihan's Portfolio
           </div>
 
           {/* Desktop Menu + Toggle */}
           <div className="hidden md:flex items-center space-x-6">
-            {['home', 'about', 'projects', 'skills', 'contact'].map((id) => (
+            {['home', 'about', 'projects', 'contact'].map((id) => (
               <a
                 key={id}
                 href={`#${id}`}

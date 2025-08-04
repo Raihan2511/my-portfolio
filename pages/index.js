@@ -129,9 +129,10 @@ import ThemeToggle from '../components/ThemeToggle' // ← Add this
 
 export default function Home() {
   return (
+    <>
+    <Header />
     <div className="bg-white text-black dark:bg-gray-900 dark:text-white transition-colors duration-300">
       {/* Add toggle in the header area */}
-      <Header />
       <div className="flex justify-end px-4 py-2">
         <ThemeToggle />
       </div>
@@ -146,5 +147,6 @@ export default function Home() {
 
       <Footer />
     </div>
+    </>
   )
 }

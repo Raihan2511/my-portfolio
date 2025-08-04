@@ -1,14 +1,14 @@
 export default function Projects() {
   const projects = [
-    {
-      id: 1,
-      title: "MedXpert: A Multimodal Diagnosis Assistant for Radiology",
-      description: "Developed MedXpert, a multimodal AI assistant combining fine-tuned CLIP, BLIP, for medical image-text retrieval, and automated radiology diagnosis.",
-      image: "/images/project1.jpg",
-      technologies: ["PyTorch", "Hugging Face Transformers", "CLIP", "BLIP", "Gemini LLM", "Streamlit", "NumPy", "Pandas"],
-      github: "https://github.com/Raihan2511/MedXpert",
-      live: "https://medxpert-d4kyfrpxejymtc4hj95da9.streamlit.app/"
-    },
+    // {
+    //   id: 1,
+    //   title: "MedXpert: A Multimodal Diagnosis Assistant for Radiology",
+    //   description: "Developed MedXpert, a multimodal AI assistant combining fine-tuned CLIP, BLIP, for medical image-text retrieval, and automated radiology diagnosis.",
+    //   image: "/images/project1.jpg",
+    //   technologies: ["PyTorch", "Hugging Face Transformers", "CLIP", "BLIP", "Gemini LLM", "Streamlit", "NumPy", "Pandas"],
+    //   github: "https://github.com/Raihan2511/MedXpert",
+    //   live: "https://medxpert-d4kyfrpxejymtc4hj95da9.streamlit.app/"
+    // },
     {
       id: 2,
       title: "ChatGPT Clone with DeepSeek R1 & RAG-Powered PDF Q&A",
