@@ -9,7 +9,7 @@ export default function Hero() {
           <img
             src="/images/raihan_profile.jpg"
             alt="Profile"
-            className="w-32 h-32 md:w-48 md:h-48 rounded-full mx-auto mb-8 shadow-2xl animate-bounce-slow"
+            className="w-32 h-32 md:w-48 md:h-48 rounded-full mx-auto mb-8 shadow-2xl "
           />
           <h1 className="text-4xl md:text-6xl font-bold text-gray-800 dark:text-white mb-4">
             Hi, I am <span className="text-primary dark:text-secondary">Raihan</span>
