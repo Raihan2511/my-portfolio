@@ -45,7 +45,7 @@ export default function Contact() {
             <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto rounded-full mb-4"></div>
           </div>
           <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto text-lg leading-relaxed">
-            I am always open to discussing new opportunities and interesting projects. Let's connect!
+            I am always open to discussing new opportunities and interesting projects. Let&apos;s connect!
           </p>
         </div>
 
