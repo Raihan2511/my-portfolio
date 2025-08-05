@@ -60,7 +60,7 @@ export default function Header() {
         <div className="flex justify-between items-center">
           {/* Logo/Title */}
           <div className="text-2xl font-bold text-primary dark:text-white">
-            Raihan's Portfolio
+            Raihan
           </div>
 
           {/* Desktop Menu + Toggle */}
