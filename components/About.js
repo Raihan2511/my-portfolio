@@ -62,7 +62,7 @@ export default function About() {
     <section
       ref={sectionRef}
       id="about"
-      className="py-20 bg-gradient-to-br from-slate-50 via-blue-50  dark:from-gray-900 dark:to-gray-800"
+      className="py-20 bg-gradient-to-br from-slate-50 via-blue-50  dark:from-gray-700 dark:to-gray-700 transition-colors duration-300"
     >
       {/* 
       <div className="absolute top-10 right-10 w-72 h-72 bg-blue-200 rounded-full opacity-20 blur-3xl"></div>
@@ -83,7 +83,7 @@ export default function About() {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-16 items-start">
+        <div className="grid lg:px-10 lg:grid-cols-[2fr,1fr] gap-16 items-start">
           {/* About Content - Left Side */}
           <div
             className={`transition-all duration-1000 delay-300 ${
@@ -92,7 +92,7 @@ export default function About() {
                 : "opacity-0 -translate-x-10"
             }`}
           >
-            <div className="relative">
+            <div className="relative pl-4">
               <div className="absolute -left-4 top-0 w-1 h-full bg-gradient-to-b from-blue-500 to-purple-500 rounded-full"></div>
 
               <h3 className="text-3xl font-bold text-gray-800 mb-6 flex items-center gap-3 dark:text-white">
@@ -173,7 +173,7 @@ export default function About() {
               <div className="space-y-10">
                 {skillCategories.map((category) => (
                   <div key={category.title}>
-                    <h5 className="text-lg font-semibold text-gray-700 mb-3 flex items-center gap-2">
+                    <h5 className="text-lg font-semibold dark:text-gray-300 mb-3 flex items-center gap-2">
                       <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
                       {category.title}
                     </h5>
