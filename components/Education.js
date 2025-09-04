@@ -103,7 +103,7 @@ export default function Education() {
       details: [
         // Replace with your real focus/courses/achievements
         "Focus: Machine Learning, Deep Learning, and Generative AI,Agentic AI,",
-        "Coursework:  Advanced Algorithms, Machine Learning, Computer Vision, Deep Learning & NLP, Large Language Models,Reinforcement Learning, Approximation Algorithms, Theory of Computation, Probability, Linear Algebra, Statistics-I, Computational Geometry, Spectral Graph Theory,  Deep learning-Cyber Security",
+        "Coursework:  Advanced Algorithms, Machine Learning, Computer Vision, Deep Learning and NLP, Large Language Models,Reinforcement Learning, Approximation Algorithms, Theory of Computation, Probability, Linear Algebra, Statistics-I, Computational Geometry, Spectral Graph Theory,  Deep learning-Cyber Security",
         "Qualified GATE 2025 in Computer Science and Information Technology (CSE) conducted by IIT Roorkee ",
         // "Scholarship: XYZ Merit Award",
       ],
