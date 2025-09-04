@@ -65,7 +65,7 @@ export default function Header() {
 
           {/* Desktop Menu + Toggle */}
           <div className="hidden md:flex items-center space-x-6">
-            {['home', 'about', 'projects', 'contact'].map((id) => (
+            {['home', 'about','Education', 'projects', 'contact'].map((id) => (
               <a
                 key={id}
                 href={`#${id}`}
@@ -102,7 +102,7 @@ export default function Header() {
         {/* Mobile Menu */}
         {isOpen && (
           <div className="md:hidden mt-4 pb-4 px-2 rounded-lg bg-white/95 dark:bg-gray-800/95 shadow-md space-y-3">
-            {['home', 'about', 'projects', 'skills', 'contact'].map((id) => (
+            {['home', 'about','Education','projects', 'skills', 'contact'].map((id) => (
               <a
                 key={id}
                 href={`#${id}`}
