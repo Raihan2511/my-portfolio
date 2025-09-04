@@ -65,7 +65,7 @@ export default function Header() {
 
           {/* Desktop Menu + Toggle */}
           <div className="hidden md:flex items-center space-x-6">
-            {['home', 'about','Education', 'projects', 'contact'].map((id) => (
+            {['home', 'about','education', 'projects', 'contact'].map((id) => (
               <a
                 key={id}
                 href={`#${id}`}
