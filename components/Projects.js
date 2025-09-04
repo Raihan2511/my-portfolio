@@ -141,7 +141,7 @@ export default function Projects() {
       id: 3,
       title: "ShopLens: AI Powered Shopping Assistant app",
       description: "Fine tuned yolos model for clothings detection, Fashion-clip model for clothing recognition, Chatbot like streamlit interface with image upload feature.",
-      image: "/images/project3.jpg",
+      image: "/images/shoplens.png",
       technologies: ["Streamlit", "PyTorch","YOLOS", "Fashion-CLIP","opencv","gemini-llm"],
       github: "https://github.com/Raihan2511/ShopLens-AI-Shopping-Assistant/tree/feature/test01",
       // live: "https://your-weather-app.vercel.app"
