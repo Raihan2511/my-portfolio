@@ -62,7 +62,7 @@ export default function About() {
     <section
       ref={sectionRef}
       id="about"
-      className="py-20 bg-gradient-to-br from-slate-50 via-blue-50  dark:from-gray-700 dark:to-gray-700 transition-colors duration-300"
+      className="py-20 bg-white dark:bg-gray-900 transition-colors duration-300 border-b border-gray-100 dark:border-gray-800"
     >
       {/* 
       <div className="absolute top-10 right-10 w-72 h-72 bg-blue-200 rounded-full opacity-20 blur-3xl"></div>

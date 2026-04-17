@@ -125,7 +125,7 @@ export default function Footer() {
               </a>
 
               <a
-                href="https://github.com/Raihan2511/Raihan2511.github.io/blob/main/resume_rkmveri.pdf"
+                href="https://github.com/Raihan2511/Raihan2511.github.io/blob/main/resume.pdf"
                 aria-label="Download Resume"
                 className="rounded p-1 text-gray-400 outline-none transition hover:text-white focus-visible:ring-2 focus-visible:ring-indigo-400"
                 title="Resume (PDF)"
@@ -153,7 +153,7 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-semibold">Resources</h4>
             <ul className="mt-4 space-y-2 text-sm text-gray-400">
-              <li><a className="hover:text-white" href="https://github.com/Raihan2511/Raihan2511.github.io/blob/main/resume_rkmveri.pdf" download>Resume (PDF)</a></li>
+              <li><a className="hover:text-white" href="https://github.com/Raihan2511/Raihan2511.github.io/blob/main/resume.pdf" download>Resume (PDF)</a></li>
               <li><a className="hover:text-white" href="mailto:uraihan2511@gmail.com">email</a></li>
               <li><a className="hover:text-white" href="https://github.com/Raihan2511" target="_blank" rel="noopener noreferrer">GitHub</a></li>
               <li><a className="hover:text-white" href="https://www.linkedin.com/in/itsraihanuddin/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
